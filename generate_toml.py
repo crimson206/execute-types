@@ -233,7 +233,10 @@ options = Options(
 )
 
 dependencies = """
-
+pydantic
+crimson-auto-pydantic
+crimson-ast-dev-tool
+crimson-types-beta
 """
 
 
@@ -253,7 +256,7 @@ kwargs = Kwargs(
     repo_name="executable-types",
     version="0.1.0",
     name_space="crimson",
-    module_name="test-package",
+    module_name="executable-types",
     description="Your package description.",
     topics=["Topic :: Software Development :: Libraries :: Python Modules"],
     dependencies=dependencies,

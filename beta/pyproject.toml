@@ -3,8 +3,8 @@ requires = ["setuptools>=61.0.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "crimson-test-package-beta"
-version = "0.1.0"
+name = "crimson-executable-types-beta"
+version = "0.1.1"
 description = "Your package description."
 readme = "README.md"
 authors = [
@@ -30,7 +30,10 @@ classifiers = [
 
 ]
 dependencies = [
-    
+    "pydantic",
+    "crimson-auto-pydantic",
+    "crimson-ast-dev-tool",
+    "crimson-types-beta"
 ]
 requires-python = ">=3.9"
 
